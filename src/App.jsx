@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import PersonalInfoForm from "./PersonalInfoForm";
+import PersonalInfoForm from "./PersonalInfo";
 import EducationalExperience from "./EducationalExperience";
 
 function App() {
