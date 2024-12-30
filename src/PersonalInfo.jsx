@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function PersonalInfoForm() {
+function PersonalInfo() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -70,4 +70,4 @@ function PersonalInfoForm() {
   );
 }
 
-export default PersonalInfoForm;
+export default PersonalInfo;
