@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import PersonalInfoForm from "./PersonalInfoForm";
+import EducationalExperience from "./EducationalExperience";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
         </p>
       </div>
       <PersonalInfoForm />
+      <EducationalExperience />
     </>
   );
 }
