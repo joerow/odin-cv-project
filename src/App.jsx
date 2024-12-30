@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import PersonalInfo from "./PersonalInfo";
+import PersonalInfoForm from "./PersonalInfoForm";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +16,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <PersonalInfo />
+      <PersonalInfoForm />
     </>
   );
 }
