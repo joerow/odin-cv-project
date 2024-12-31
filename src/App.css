@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: #333;
 }
 
 .logo {
@@ -65,7 +66,7 @@ label {
 
 input,
 textarea {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -104,4 +105,7 @@ button:hover {
 
 .read-the-docs {
   color: #888;
+}
+.submitted {
+  color: black;
 }

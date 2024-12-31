@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 
 function PracticalExperience() {
   const [experiences, setExperiences] = useState([
@@ -49,6 +50,7 @@ function PracticalExperience() {
     <div>
       {experiences.map((experience, index) => (
         <div key={index}>
+          <h3>Practical Experience {index + 1}</h3>
           {experience.isEditing ? (
             <form onSubmit={(e) => handleSubmit(index, e)}>
               <div>
@@ -117,7 +119,7 @@ function PracticalExperience() {
               <button type="submit">Submit</button>
             </form>
           ) : (
-            <div className="card">
+            <div className="card submitted">
               <h2>Practical Experience {index + 1}</h2>
               <p>
                 <strong>Company Name:</strong> {experience.companyName}
